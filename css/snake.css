@@ -1,0 +1,47 @@
+html, body {
+  background: dimgrey;
+}
+
+.cell {
+  float: left;
+  height: 20px;
+  width: 20px;
+  background: black;
+
+/*  border: solid gray 1px;*/
+}
+
+.snake {
+  background-color: #0EBFE9;
+}
+
+.apple {
+  background-color: #F0E68C;
+  border-radius: 25px;
+}
+
+.head {
+  background-color: blue;
+}
+
+.row {
+  clear: both;
+  border-left: solid grey 1px;
+  border-right: solid grey 1px;
+}
+
+.row:first-child {
+  border-top: solid grey 1px;
+}
+
+.row:last-child {
+  border-bottom: solid grey 1px;
+}
+
+div#grid {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 372px;
+  background-color: black;
+}

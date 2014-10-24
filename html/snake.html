@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Snake</title>
+
+    <script type="text/javascript"
+             src="../js/jquery-1.9.1.js"></script>
+    <script type="text/javascript"
+             src="../js/underscore.js"></script>
+    <script type="text/javascript"
+             src="../js/snake.js"></script>
+    <script type="text/javascript"
+             src="../js/snake-view.js"></script>
+             
+    <link rel="stylesheet"      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/snake.css"></link>
+    
+  </head>
+
+  <body>
+    <div id="grid"></div>
+
+    <script>
+      $(function () { new SnakeGame.View($("#grid")); });
+    </script>
+  </body>
+</html>
